@@ -1,0 +1,787 @@
+body {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Minotaure */
+.minotaure_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:white;
+}
+.minotaure_webname{
+    position: absolute;
+    left: 40px;
+    font-size: 16pt;
+    color: white;
+}
+.card_minotaure_title{
+    position: absolute;
+    top: 100px;
+    font-size: 26rem;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+}
+.card_minotaure_name{
+    position: absolute;
+    top: 1260px;
+    left: 750px;
+    font-size: 25pt;
+    color:white;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card_minotaure_year{
+    position: absolute;
+    top: 784px;
+    left: 515px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 28px;
+    color:white
+}
+    
+
+.minotaure_des{
+    position: relative;
+    top: 800px;
+    color:white;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/* The Satin Tuning Fork*/
+.satin_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:white;
+}
+.satin_webname{
+    position: absolute;
+    left: 40px;
+    font-size: 16pt;
+    color: white;
+}
+.card_satin_title1{
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    color: white;
+    }
+.card_satin_title2{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    color: rgba(0, 22, 223, 1);
+    }
+.card_satin_title3{
+    position: absolute;
+    top: 400px;
+    right: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    color: white;
+}
+.card_satin_title4{
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+    font-size: 42pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.card_satin_title5{
+    position: absolute;
+    top: 1000px;
+    left: 330px;
+    font-size: 42pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.card_satin_title6{
+    position: absolute;
+    top: 1000px;
+    left: 700px;
+    font-size: 42pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.card_satin_title7{
+    position: absolute;
+    top: 1000px;
+    right: 40px;
+    font-size: 42pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.card_satin_name{
+    position: absolute;
+    top: 1500px;
+    left: 40px;
+    font-size: 40pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 22, 223, 1);
+}
+.card_satin_year{
+    position: absolute;
+    top: 1550px;
+    left: 40px;
+    font-size: 40pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 22, 223, 1);
+}
+.satin_des{
+    position: relative;
+    top: 1000px;
+    color:white;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/*LA RÉVOLUTION SURRÉALISTE*/
+.la_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:black;
+}
+.la_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+}
+.big_letter{
+    margin-top:-2px;
+    position: absolute;
+    left: -400px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1950pt;
+}
+
+.card_la_title{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55pt;
+}
+.card_la_name{
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 1500px;
+    left: 750px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+}
+.card_la_year{
+    position: absolute;
+    top: 810px;
+    left: 950px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+}
+.la_des{
+    position: relative;
+    top: 1050px;
+    color:white;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/*The Eternally Obvious*/
+.obvious_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:rgba(212, 140, 140, 1);
+}
+.obvious_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+    color:rgba(212, 140, 140, 1);
+}
+.big_left_obvious100{
+    position: absolute;
+    top: 500px;
+    left:-52rem;
+    font-size: 300pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(149, 27, 27, 1);
+    opacity: 0.3;
+}
+.big_left_obvious100{
+    position: absolute;
+    top: 500px;
+    left:-52rem;
+    font-size: 300pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    opacity: 0.3;
+}
+.big_left_obvious70{
+    position: absolute;
+    top: 500px;
+    left:-34rem;
+    font-size: 250pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(197, 74, 74, 1);
+    opacity: 0.3;
+}
+.big_left_obvious40{
+    position: absolute;
+    top: 500px;
+    left:-18rem;
+    font-size: 200pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(205, 102, 102, 1);
+    opacity: 0.3;
+}
+.big_left_obvious10{
+    position: absolute;
+    top: 500px;
+    left:-3rem;
+    font-size: 150pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(212, 140, 140, 1);
+    opacity: 0.3;
+}
+
+.big_left_obvious100{
+    position: absolute;
+    top: 500px;
+    left:-52rem;
+    font-size: 300pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(149, 27, 27, 1);
+    opacity: 0.3;
+}
+.big_right_obvious100{
+    position: absolute;
+    top: 500px;
+    right:-52rem;
+    font-size: 300pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(149, 27, 27, 1);
+    opacity: 0.3;
+}
+.big_right_obvious70{
+    position: absolute;
+    top: 500px;
+    right:-34rem;
+    font-size: 250pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(197, 74, 74, 1);
+    opacity: 0.3;
+}
+.big_right_obvious40{
+    position: absolute;
+    top: 500px;
+    right:-18rem;
+    font-size: 200pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(205, 102, 102, 1);
+    opacity: 0.3;
+}
+.big_right_obvious10{
+    position: absolute;
+    top: 500px;
+    right:-3rem;
+    font-size: 150pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    letter-spacing: -10px;
+    color:rgba(212, 140, 140, 1);
+    opacity: 0.3;
+}
+.card_obvious_title{
+    position: absolute;
+    top: 800px;
+    left: 508px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    text-align: center;
+    line-height:4rem;
+    letter-spacing:3pt;
+    color:rgba(212, 140, 140, 1);
+}
+.card_obvious_name{
+    position: absolute;
+    top: 1046px;
+    left: 590px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35pt;
+    text-align: center;
+    color:rgba(212, 140, 140, 1);
+}
+.card_obvious_year{
+    position: absolute;
+    top: 1100px;
+    left: 668px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35pt;
+    text-align: center;
+    color:rgba(212, 140, 140, 1);
+}
+.obvious_des{
+    position: relative;
+    top: 1050px;
+    color:rgba(212, 140, 140, 1);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/* Potato */
+.potato_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:rgba(29, 95, 212, 1);
+}
+.potato_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+    color:rgba(222, 72, 36, 1);
+}
+.po{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110pt;
+    color:rgba(222, 72, 36, 1);
+}
+.ta{
+    position: absolute;
+    top: 700px;
+    left: 610px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110pt;
+    color:rgba(0, 172, 112, 1);
+}
+.to{
+    position: absolute;
+    top: 1000px;
+    right: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110pt;
+    color:rgba(29, 95, 212, 1);
+}
+.card_potato_name{
+    position: absolute;
+    top: 200px;
+    left:625px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    color:rgba(29, 95, 212, 1);
+}
+.card_potato_year{
+    position: absolute;
+    top: 1200px;
+    left:655px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    color:rgba(222, 72, 36, 1);
+}
+
+.potato_des{
+    position: relative;
+    top: 1500px;
+    left: 40px;
+    color:rgba(222, 72, 36, 1);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/*The Accommodation Of Desire*/
+.desire_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:rgba(27, 0, 135, 1);
+}
+.desire_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+    color:rgba(27, 0, 135, 1);
+}
+.card_desire_name{
+    position: absolute;
+    top: 269px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    text-align:left;
+    color:rgba(27, 0, 135, 1);
+}
+.the{
+    position: absolute;
+    top: 350px;
+    left: 36px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150pt;
+    text-align:left;
+    color:rgba(27, 0, 135, 1);
+}
+.a1{
+    position: absolute;
+    top: 655px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:left;
+    color:white;
+}
+.c1{
+    position: absolute;
+    top: 655px;
+    left: 187px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.c2{
+    position: absolute;
+    top: 970px;
+    left: 329px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.o1{
+    position: absolute;
+    top: 970px;
+    left: 619px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.m1{
+    position: absolute;
+    top: 970px;
+    left: 999px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.m2{
+    position: absolute;
+    top: 1285px;
+    left: 760px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.o2{
+    position: absolute;
+    top: 1285px;
+    right: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.d{
+    position: absolute;
+    top: 1600px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:left;
+    color:white;
+}
+.a2{
+    position: absolute;
+    top: 1600px;
+    left: 329px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.t{
+    position: absolute;
+    top: 1915px;
+    left: 619px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.i{
+    position: absolute;
+    top: 1915px;
+    left: 999px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.o3{
+    position: absolute;
+    top: 2230px;
+    left: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:left;
+    color:white;
+}
+.n{
+    position: absolute;
+    top: 2230px;
+    right:40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.of{
+    position: absolute;
+    top: 2535px;
+    right: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150pt;
+    text-align:left;
+    color:rgba(27, 0, 135, 1);
+}
+.desire{
+    position: absolute;
+    top: 2835px;
+    left: 40px;
+    letter-spacing: 11.6rem;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    text-align:center;
+    color:rgba(0, 34, 255, 1);
+}
+.card_desire_year{
+    position: absolute;
+    top: 2990px;
+    right: 40px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    text-align:left;
+    color:rgba(27, 0, 135, 1);
+}
+.desire_des{
+    position: relative;
+    top: 1600px;
+    color:rgba(27, 0, 135, 1);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
