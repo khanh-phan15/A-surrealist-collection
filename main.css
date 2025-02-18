@@ -561,7 +561,7 @@
     text-align: center;
     line-height:4rem;
     letter-spacing:3pt;
-    color:rgba(212, 140, 140, 1);
+    color:rgb(255, 198, 198);
 }
 .card_obvious_name{
     position: absolute;
@@ -572,7 +572,7 @@
     font-style: normal;
     font-size: 35pt;
     text-align: center;
-    color:rgba(212, 140, 140, 1);
+    color:rgb(255, 198, 198);
 }
 .card_obvious_year{
     position: absolute;
@@ -583,17 +583,34 @@
     font-style: normal;
     font-size: 35pt;
     text-align: center;
-    color:rgba(212, 140, 140, 1);
+    color:rgb(255, 198, 198);
 }
-.obvious_des{
-    position: relative;
-    top: 1050px;
-    color:rgba(212, 140, 140, 1);
+.obvious_des {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px; 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top: 70rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+    color:rgb(255, 198, 198);
+}
+
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.column.obvious-1 {
+    flex: 2; 
+}
+
+.column.obvious-2 {
+    flex: 1;
 }
 
 /* Potato */
@@ -662,17 +679,33 @@
     font-size: 30pt;
     color:rgba(222, 72, 36, 1);
 }
-
-.potato_des{
-    position: relative;
-    top: 1500px;
-    left: 40px;
-    color:rgba(222, 72, 36, 1);
+.potato_des {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px; 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top: 50rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+    color: rgba(222, 72, 36, 1); 
+}
+
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.column.potato-1 {
+    color: rgba(29, 95, 212, 1);
+    flex: 2; 
+}
+
+.column.potato-2 {
+    flex: 1;
 }
 
 /*The Accommodation Of Desire*/
@@ -848,6 +881,17 @@
 .n{
     position: absolute;
     top: 2230px;
+    left:329px;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70pt;
+    text-align:center;
+    color:white;
+}
+.s{
+    position: absolute;
+    top: 2230px;
     right:40px;
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
@@ -891,14 +935,33 @@
     color:rgba(27, 0, 135, 1);
 }
 .desire_des{
-    position: relative;
-    top: 1600px;
-    color:rgba(27, 0, 135, 1);
+    display:flex;
+    justify-content: space-between;
+    gap: 100px;
+    color:rgba(27, 0, 135, 1); 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top:104rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+
+}
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+    width:fit-content;
+}
+.column desire-1{
+    flex: 2; 
+    padding: 10px; 
+}
+.column desire-2{
+    flex: 1;
+    box-sizing: border-box;
+    width: 200px;
 }
 /*Barbarians*/
 .barbarians_index{
@@ -1010,15 +1073,35 @@
 
 }
 .barbarians_des{
-    position: relative;
-    top: 800px;
-    color:rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    gap: 100px;
+    color: rgba(44, 0, 115, 1);   
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top:45rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+
 }
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+    width:fit-content;
+}
+.column barbarians-1{
+    flex: 2; 
+    padding: 10px; 
+}
+.column barbarians-2{
+    flex: 1;
+    box-sizing: border-box;
+    width: 200px;
+}
+ 
 
 /*The Large Glass*/
 .glass_index{
@@ -1151,12 +1234,32 @@
     color:white;
 }
 .glass_des{
-    position: relative;
-    top: 1000px;
+    display:flex;
+    justify-content: space-between;
+    gap: 100px;
     color: rgba(44, 0, 115, 1);   
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top:60rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+    text-align: left;
 }
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+    width:fit-content;
+}
+.column glass-1{
+    flex: 2; 
+    padding: 10px; 
+}
+.column glass-2{
+    flex: 1;
+    box-sizing: border-box;
+    width: 200px;
+}
+ 
