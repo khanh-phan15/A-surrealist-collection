@@ -83,10 +83,12 @@
     transition: background-color 0.3s; 
 }
 .the-accommodation-of-desire {
+    text-decoration: none;
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
+    color:white;
     background-color: rgba(160, 65, 255, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
@@ -94,6 +96,27 @@
 
 
 .the-large-glass:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.the-barbarians:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.potato:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.the-eternally-obvious:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.minotaure:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.the-satin-tuning-fork:hover {
+        background-color:rgba(0, 19, 142, 1);
+}
+.la-revolution-surrealiste:hover {
+    background-color:rgba(0, 19, 142, 1);
+}
+.the-accommodation-of-desire:hover {
     background-color:rgba(0, 19, 142, 1);
 }
 /* Minotaure */
