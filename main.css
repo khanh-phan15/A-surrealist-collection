@@ -131,12 +131,13 @@
 .minotaure_webname{
     position: absolute;
     left: 40px;
+    top:20px;
     font-size: 16pt;
     color: white;
 }
 .card_minotaure_title{
     position: absolute;
-    top: 100px;
+    top: 300px;
     font-size: 26rem;
     -webkit-text-stroke-width: -1%;
     display: inline-block;
@@ -150,7 +151,7 @@
 }
 .card_minotaure_name{
     position: absolute;
-    top: 1260px;
+    top: 1460px;
     left: 750px;
     font-size: 25pt;
     color:white;
@@ -161,7 +162,7 @@
 
 .card_minotaure_year{
     position: absolute;
-    top: 784px;
+    top: 984px;
     left: 515px;
     font-family: "Bacasime Antique", serif;
     font-weight: 200;
@@ -170,18 +171,34 @@
     color:white
 }
     
-
 .minotaure_des{
-    position: relative;
-    top: 800px;
-    color:white;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    color:white; 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top: 10rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+
 }
 
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.column.minotaure-1 {
+    flex: 1; 
+}
+
+.column.minotaure-2 {
+    flex: 2;
+}
 /* The Satin Tuning Fork*/
 .satin_index{
     text-decoration: none;
@@ -193,6 +210,7 @@
 }
 .satin_webname{
     position: absolute;
+    top: 20px;
     left: 40px;
     font-size: 16pt;
     color: white;
@@ -288,14 +306,32 @@
     color: rgba(0, 22, 223, 1);
 }
 .satin_des{
-    position: relative;
-    top: 1000px;
-    color:white;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    color:white; 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    font-size: 15pt;
+    margin-top:60rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: stretch;
+
+}
+
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.column.satin-1 {
+    flex: 1; 
+}
+
+.column.satin-2 {
+    flex: 2;
 }
 
 /*LA RÉVOLUTION SURRÉALISTE*/
@@ -314,8 +350,8 @@
     font-size: 16pt;
 }
 .big_letter{
-    margin-top:-2px;
     position: absolute;
+    top: -2600px;
     left: -400px;
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
@@ -354,15 +390,32 @@
     font-size: 50pt;
 }
 .la_des{
-    position: relative;
-    top: 1050px;
-    color:white;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px; 
+    color:rgb(0, 0, 0);
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
-    column-count: 2;
-    column-gap: 20px;
+    margin-top: 1100px;
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 15pt;
 }
+
+.column {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.column.la-1 {
+    flex: 1; 
+}
+
+.column.la-2 {
+    flex: 1;
+}
+
 
 /*The Eternally Obvious*/
 .obvious_index{
@@ -371,14 +424,14 @@
     top: 40px;
     right: 40px;
     font-size: 16pt;
-    color:rgba(212, 140, 140, 1);
+    color:rgb(255, 198, 198);
 }
 .obvious_webname{
     position: absolute;
     top:20px;
     left: 40px;
     font-size: 16pt;
-    color:rgba(212, 140, 140, 1);
+    color:rgb(255, 198, 198);
 }
 .big_left_obvious100{
     position: absolute;
@@ -588,7 +641,6 @@
 .obvious_des {
     display: flex;
     justify-content: space-between;
-    gap: 100px; 
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
@@ -598,6 +650,7 @@
     margin-right: 20px;
     align-items: stretch;
     color:rgb(255, 198, 198);
+    gap: 100px; 
 }
 
 .column {
