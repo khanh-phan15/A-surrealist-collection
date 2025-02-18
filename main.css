@@ -10,36 +10,92 @@
 .home_webname{
     position: absolute;
     left: 40px;
+    top: 30px;
     font-size: 16pt;
     color: white;
 }
-
-
 .flex-container {
-    display: flex; /* Enable flexbox */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    gap: 20px; /* Space between items */
-    margin-top: 50px; /* Add top margin to move the flexbox down */
+    display: flex; 
+    width: 100%;
+    height: 100%;
+}
+.the-large-glass {
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(255, 0, 102, 1); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.the-barbarians {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(0, 4, 255, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.potato {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(243, 195, 11, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.the-eternally-obvious {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(32, 4, 4, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.minotaure {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(255, 51, 0, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.the-satin-tuning-fork {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(47, 47, 47, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.la-revolution-surrealiste {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(255, 0, 43, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+}
+.the-accommodation-of-desire {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(160, 65, 255, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
 }
 
-.flex-container div {
-    text-align: center; /* Center text within each item */
-}
 
-.flex-container a {
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* White text color */
-    font-size: 50pt; /* Set font size to 50pt */
-    font-weight: bold; /* Bold text */
-    transition: color 0.3s; /* Smooth transition for color change */
+.the-large-glass:hover {
+    background-color:rgba(0, 19, 142, 1);
 }
-
-.flex-container a:hover {
-    color: rgb(255, 225, 0); /* Change text color to light blue on hover */
-}
-
 /* Minotaure */
 .minotaure_index{
     text-decoration: none;
@@ -934,6 +990,147 @@
     position: relative;
     top: 800px;
     color:rgb(0, 0, 0);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+/*The Large Glass*/
+.glass_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color: rgba(44, 0, 115, 1);  
+}
+.glass_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+    color: rgba(44, 0, 115, 1);  
+}
+.the_glass{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    font-size: 120pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(255, 255, 255); 
+}
+.big_L100{
+    position: absolute;
+    top: 300px;
+    left: -200px;
+    font-size: 1500pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgba(44, 0, 115, 1);    
+}
+.big_L30{
+    position: absolute;
+    top: 300px;
+    left: -120px;
+    font-size: 1500pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgba(44, 0, 115, 1);
+    opacity: 30%; 
+}
+.big_L20{
+    position: absolute;
+    top: 300px;
+    left: -48px;
+    font-size: 1500pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgba(44, 0, 115, 1);   
+    opacity: 20%; 
+}
+.big_L10{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-size: 1500pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgba(44, 0, 115, 1);  
+    opacity: 10%; 
+}
+.arge{
+    position: absolute;
+    top: 1200px;
+    left: 730px;
+    font-size: 190pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgba(44, 0, 115, 1);   
+}
+.card_glass_name{
+    position: absolute;
+    top: 1300px;
+    left: 177px;
+    font-size: 30pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    color:white;
+}
+.card_glass_year{
+    position: absolute;
+    top: 900px;
+    left: 349px;
+    font-size: 30pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    color:white;
+}
+.glass{
+    position: absolute;
+    top: 1520px;
+    left: 900px;
+    font-size: 70pt;
+    -webkit-text-stroke-width: -1%;
+    display: inline-block;
+    transform: rotate(90deg);
+    text-align: left;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17rem;
+    color:white;
+}
+.glass_des{
+    position: relative;
+    top: 1000px;
+    color: rgba(44, 0, 115, 1);   
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
