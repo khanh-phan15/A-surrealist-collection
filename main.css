@@ -1,8 +1,44 @@
-body {
-    font-family: "Bacasime Antique", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+/*Home page*/
+.home_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:white;
+}
+.home_webname{
+    position: absolute;
+    left: 40px;
+    font-size: 16pt;
+    color: white;
+}
+
+
+.flex-container {
+    display: flex; /* Enable flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between items */
+    margin-top: 50px; /* Add top margin to move the flexbox down */
+}
+
+.flex-container div {
+    text-align: center; /* Center text within each item */
+}
+
+.flex-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    font-size: 50pt; /* Set font size to 50pt */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.flex-container a:hover {
+    color: rgb(255, 225, 0); /* Change text color to light blue on hover */
+}
 
 /* Minotaure */
 .minotaure_index{
@@ -779,6 +815,125 @@ body {
     position: relative;
     top: 1600px;
     color:rgba(27, 0, 135, 1);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-gap: 20px;
+}
+/*Barbarians*/
+.barbarians_index{
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16pt;
+    color:black;
+}
+.barbarians_webname{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    font-size: 16pt;
+    color:black;
+}
+.The{
+    position: absolute;
+    top: 500px;
+    left: 605px;
+    font-size: 60pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0); 
+}
+.barbarians100{
+    position: absolute;
+    top: 810px;
+    left: 40px;
+    font-size: 160pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);   
+}
+.barbarians40{
+    position: absolute;
+    top: 770px;
+    left: 40px;
+    font-size: 160pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+    opacity: 40%; 
+}
+.barbarians30{
+    position: absolute;
+    top: 730px;
+    left: 40px;
+    font-size: 160pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+    opacity: 25%; 
+}
+.barbarians10{
+    position: absolute;
+    top: 690px;
+    left: 40px;
+    font-size: 160pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+    opacity: 10%; 
+}
+.barbarians5{
+    position: absolute;
+    top: 640px;
+    left: 40px;
+    font-size: 160pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+    opacity: 5%; 
+}
+.card_barbarians_name{
+    position: absolute;
+    top: 1100px;
+    left: 609px;
+    font-size: 30pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+}
+.card_barbarians_year{
+    position: absolute;
+    top: 1170px;
+    left: 650px;
+    font-size: 30pt;
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    color: rgb(0, 0, 0);  
+
+}
+.barbarians_des{
+    position: relative;
+    top: 800px;
+    color:rgb(0, 0, 0);
     font-family: "Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;
