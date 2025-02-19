@@ -19,69 +19,105 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+    margin-top: 200px;
 }
 .the-large-glass {
     flex: 1; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(255, 0, 102, 1); 
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.the-large-glass a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .the-barbarians {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(0, 4, 255, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.the-barbarians a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .potato {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(243, 195, 11, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.potato a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .the-eternally-obvious {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(32, 4, 4, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.the-eternally-obvious a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .minotaure {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(255, 51, 0, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.minotaure a{
+        font-size: 23pt;
+        text-decoration:none;
+        color:white;
 }
 .the-satin-tuning-fork {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(47, 47, 47, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.the-satin-tuning-fork a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .la-revolution-surrealiste {
     flex: 1; 
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgba(255, 0, 43, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.la-revolution-surrealiste a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 .the-accommodation-of-desire {
     text-decoration: none;
@@ -90,35 +126,40 @@
     justify-content: center; 
     align-items: center; 
     color:white;
-    background-color: rgba(160, 65, 255, 1);
+    background-color:rgba(0, 19, 142, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s; 
+}
+.the-accommodation-of-desire a{
+    font-size: 23pt;
+    text-decoration:none;
+    color:white;
 }
 
 
 .the-large-glass:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(255, 0, 102, 1); 
 }
 .the-barbarians:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(0, 4, 255, 1);
 }
 .potato:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(243, 195, 11, 1);
 }
 .the-eternally-obvious:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(32, 4, 4, 1);
 }
 .minotaure:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(255, 51, 0, 1);
 }
 .the-satin-tuning-fork:hover {
-        background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(47, 47, 47, 1);
 }
 .la-revolution-surrealiste:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color:rgba(255, 0, 4, 1);
 }
 .the-accommodation-of-desire:hover {
-    background-color:rgba(0, 19, 142, 1);
+    background-color: rgba(160, 65, 255, 1);
 }
 /* Minotaure */
 .minotaure_index{
