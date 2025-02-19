@@ -135,8 +135,6 @@
     text-decoration:none;
     color:white;
 }
-
-
 .the-large-glass:hover {
     background-color: rgba(255, 0, 102, 1); 
 }
@@ -222,7 +220,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 15pt;
-    margin-top: 10rem;
+    margin-top: 60rem;
     margin-left: 20px;
     margin-right: 20px;
     align-items: stretch;
@@ -241,6 +239,7 @@
 .column.minotaure-2 {
     flex: 2;
 }
+
 /* The Satin Tuning Fork*/
 .satin_index{
     text-decoration: none;
@@ -1357,4 +1356,374 @@
     box-sizing: border-box;
     width: 200px;
 }
- 
+
+/*Mobile 390px*/
+@media screen and (max-width:390px) {
+    /*minotaure mobile*/
+            .minotaure_webname{
+                position: absolute;
+                left: 23%;
+                font-size: 19pt;
+                text-align: center;
+                justify-content: content;
+                height: 100vh;
+                color: white;
+            }
+            .minotaure_index{
+                position: absolute;
+                top: 100px;
+                left: 14%;
+                font-size: 17pt;
+                text-align: center;
+                justify-content: content;
+                height: 100vh;
+                color: white;
+            }
+            
+            .card_minotaure_title{
+                position: absolute;
+                font-size: 250px;
+                -webkit-text-stroke-width: -1%; 
+                display: inline-block; 
+                transform: rotate(90deg); 
+                text-align: left;
+                font-family: "Bacasime Antique", serif;
+                font-weight: 400; 
+                font-style: normal;
+                line-height: 10rem; 
+                letter-spacing: -10px;
+                top: 50%; 
+                left: 50%; 
+                transform: translate(-50%, -50%) rotate(90deg); /* Center and rotate */
+            }
+            .card_minotaure_name{
+                position: absolute;
+                top: 950px;
+                left: 228px;
+                font-size: 15pt;
+                color:white;
+                font-family: "Bacasime Antique", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+            .card_minotaure_year{
+                position: absolute;
+                top: 664px;
+                left: 90px;
+                font-size: 15pt;
+                font-family: "Bacasime Antique", serif;
+                font-weight: 200;
+                font-style: normal;
+                color:white
+            }
+                
+            .minotaure_des{
+                display: block;
+                flex-wrap: wrap;
+                justify-content: space-between; 
+                color:white; 
+                font-family: "Bacasime Antique", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 17pt;
+                margin-top: 75rem;
+                margin-left: 7px;
+                margin-right: 10px;
+                align-items: stretch;
+                line-height: 2rem;
+            }
+            .column {
+                flex: 1; /* Each column takes equal space */
+                flex-direction: column;
+                min-width: 25px;
+            }
+    /*satin mobile*/
+        .satin_webname{
+            position: absolute;
+            left: 23%;
+            font-size: 19pt;
+            text-align: center;
+            justify-content: content;
+            height: 100vh;
+            color: white;
+        }
+        .satin_index{
+            position: absolute;
+            top: 100px;
+            left: 14%;
+            font-size: 17pt;
+            text-align: center;
+            justify-content: content;
+            height: 100vh;
+            color: white;
+        }
+        
+        .card_satin_title1{
+            position: absolute;
+            top: 230px;
+            left: 20px;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30pt;
+            color: white;
+            }
+        .card_satin_title2{
+            position: absolute;
+            top: 270px;
+            left: 20px;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30pt;
+            color: rgba(0, 22, 223, 1);
+            }
+        .card_satin_title3{
+            position: absolute;
+            top: 460px;
+            left: 210px;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30pt;
+            color: white;
+        }
+        .card_satin_title4{
+            position: absolute;
+            top: 800px;
+            left: 20px;
+            font-size: 20pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .card_satin_title5{
+            position: absolute;
+            top: 800px;
+            left: 70px;
+            font-size: 20pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .card_satin_title6{
+            position: absolute;
+            top: 800px;
+            left: 210px;
+            font-size: 20pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .card_satin_title7{
+            position: absolute;
+            top: 800px;
+            left: 350px;
+            font-size: 20pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .card_satin_name{
+            position: absolute;
+            top: 1100px;
+            left: 20px;
+            font-size: 19pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgba(0, 22, 223, 1);
+        }
+        .card_satin_year{
+            position: absolute;
+            top: 1130px;
+            left: 20px;
+            font-size: 19pt;
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgba(0, 22, 223, 1);
+        }
+        .satin_des{
+            display: block;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+            color:white; 
+            font-family: "Bacasime Antique", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 17pt;
+            margin-top: 100rem;
+            margin-left: 7px;
+            margin-right: 10px;
+            align-items: stretch;
+            line-height: 2rem;
+        }
+        .column {
+            flex: 1; /* Each column takes equal space */
+            flex-direction: column;
+            min-width: 25px;
+        }
+    /*the large glass mobile*/
+    .glass_webname{
+        position: absolute;
+        left: 23%;
+        font-size: 19pt;
+        text-align: center;
+        justify-content: content;
+        height: 100vh;
+        color: rgba(44, 0, 115, 1);    
+    }
+    .glass_index{
+        position: absolute;
+        top: 100px;
+        left: 14%;
+        font-size: 17pt;
+        text-align: center;
+        justify-content: content;
+        height: 100vh;
+        color: rgba(44, 0, 115, 1);    
+    }
+    .the_glass{
+        position: absolute;
+        top: 400px;
+        left: 10px;
+        font-size: 40pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgb(255, 255, 255); 
+    }
+    .big_L100{
+        position: absolute;
+        top: 340px;
+        left: -80px;
+        font-size: 550pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgba(44, 0, 115, 1);    
+    }
+    .big_L30{
+        position: absolute;
+        top: 340px;
+        left: -52px;
+        font-size: 550pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgba(44, 0, 115, 1); 
+        opacity: 30%; 
+    }
+    .big_L20{
+        position: absolute;
+        top: 340px;
+        left: -29px;
+        font-size: 550pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgba(44, 0, 115, 1);  
+        opacity: 20%; 
+    }
+    .big_L10{
+        position: absolute;
+        top: 340px;
+        left: -2px;
+        font-size: 550pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgba(44, 0, 115, 1);  
+        opacity: 10%; 
+    }
+    .arge{
+        position: absolute;
+        top: 690px;
+        left:248px;
+        font-size: 50pt;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align:center;
+        color: rgba(44, 0, 115, 1);   
+    }
+    .card_glass_name{
+        position: absolute;
+        top: 650px;
+        left: 47px;
+        font-size: 13pt;
+        -webkit-text-stroke-width: -1%;
+        display: inline-block;
+        transform: rotate(90deg);
+        text-align: left;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 17rem;
+        color:white;
+    }
+    .card_glass_year{
+        position: absolute;
+        top: 500px;
+        left: 114px;
+        font-size: 13pt;
+        -webkit-text-stroke-width: -1%;
+        display: inline-block;
+        transform: rotate(90deg);
+        text-align: left;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 17rem;
+        color:white;
+    }
+    .glass{
+        position: absolute;
+        top: 706px;
+        left: 324px;
+        font-size: 24pt;
+        -webkit-text-stroke-width: -1%;
+        display: inline-block;
+        transform: rotate(90deg);
+        text-align: left;
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 17rem;
+        color:white;
+    }  
+    .glass_des{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        color:white; 
+        font-family: "Bacasime Antique", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17pt;
+        margin-top: 90rem;
+        margin-left: 7px;
+        margin-right: 10px;
+        align-items: stretch;
+        line-height: 2rem;
+    }
+    .column {
+        flex: 1; /* Each column takes equal space */
+        flex-direction: column;
+        min-width: 25px;
+    }
+
+}
+
+    
